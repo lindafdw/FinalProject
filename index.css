@@ -51,7 +51,7 @@
 .navbar {
 	width: 90%;
 	/*height: 100px;*/
-/* 	background-color: lightblue; */
+	/*background-color: lightblue;*/
 	box-sizing: border-box;
 	margin: 0 auto; 
 	line-height: 100px;
@@ -60,7 +60,7 @@
 }
 .menu a {
 	text-decoration: none;
-/* 	background-color: red; */
+	/*background-color: red;*/
 	color: #821413;
 	margin-left:5px;
 	padding: 20px 45px;
@@ -76,14 +76,14 @@
 .body2 {
     width: 1200px;
     height: 400px;
-/*     background-color: lightcyan; */
+    /*background-color: lightcyan;*/
     position: relative;
 }
 
 .gambar1 {
     width: 150px;
     height: 150px;
-/*     background-color: sandybrown; */
+    /*background-color: sandybrown;*/
     position: absolute;
     top: 50px;
     left:365px;
@@ -94,7 +94,7 @@
 .gambar2 {
     width: 150px;
     height: 150px;
-/*     background-color: blueviolet; */
+    /*background-color: blueviolet;*/
     position: absolute;
     top: 97px;
     left:200px;
@@ -105,7 +105,7 @@
 .gambar3 {
     width: 150px;
     height: 150px;
-/*     background-color: palegreen; */
+    /*background-color: palegreen;*/
     position: absolute;
     top: 172px;
     left:50px;
@@ -116,7 +116,7 @@
 .gambar4 {
     width: 150px;
     height: 150px;
-/*     background-color: blueviolet; */
+    /*background-color: blueviolet;*/
     position: absolute;
     top: 97px;
     right:520px;
@@ -127,7 +127,7 @@
 .gambar5 {
     width: 150px;
     height: 150px;
-/*     background-color: palegreen; */
+    /*background-color: palegreen;*/
     position: absolute;
     top: 172px;
     right:370px;
