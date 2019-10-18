@@ -1,0 +1,439 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century gothic';
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.logo1 {
+	width: 500px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+
+.logo2 {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	/*padding-top: 10px; */
+}
+
+.body {
+	width: 100%;
+	height: 100px;
+	background-color: #E3EEF4;	
+}
+
+.body1 {
+	width: 1000px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+}
+
+.navbar {
+	width: 90%;
+	/*height: 100px;*/
+	/*background-color: lightblue;*/
+	box-sizing: border-box;
+	margin: 0 auto; 
+	line-height: 100px;
+	/*padding-top: 10px;*/
+	overflow: hidden;
+}
+
+.navbar a {
+	text-decoration: none;
+	/*background-color: red;*/
+	color: #821413;
+	margin-left:7px;
+	padding: 20px 45px;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+.navbar a:hover {
+	background-color: #E3EEF4;
+	border-bottom: 3px solid #821413;
+}
+
+.kotak1 {
+	width: 100%;
+	height: 750px;
+	/*background-color: red;*/
+	background-image: url(paket/11.jpg);
+	background-size: cover;
+	margin-top:	20px; 
+}
+
+.paket1 {
+	width: 250px;
+	height: 600px;
+	background-color: #E3EEF4;
+	float: left;
+	margin-left: 150px;
+	margin-top:	50px; 
+	border-radius: 10px;
+}
+
+.nama1 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.nama1 h2 {
+	color: black;
+	line-height: 50px;
+	text-align: center;
+}
+
+.harga1 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+	margin-top: 30px;
+}
+
+.harga1 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.ket1 {
+	width: 250px;
+	height: 180px;
+	/*background-color: red;*/
+	margin-top: 40px;
+}
+
+.ket1 h2 {
+	color: black;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.masa1 {
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	/*background-color: red;*/
+}
+
+.masa1 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.sesi1 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.sesi1 h2 {
+	color: black;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.submit {
+	/*text-decoration: none;*/
+	margin-top: 40px;
+    background-color: white;
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+.paket2 {
+	width: 250px;
+	height: 600px;
+	background-color: #E3EEF4;
+	float: left;
+	margin-left: 16.5px;
+	margin-top:	50px; 
+	border-radius: 10px;
+}
+
+.nama2 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.nama2 h2 {
+	color: black;
+	line-height: 50px;
+	text-align: center;
+}
+
+.harga2 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+	margin-top: 30px;
+}
+
+.harga2 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.ket2 {
+	width: 250px;
+	height: 180px;
+	/*background-color: red;*/
+	margin-top: 40px;
+}
+
+.ket2 h2 {
+	color: black;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.masa2 {
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	/*background-color: red;*/
+}
+
+.masa2 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.sesi2 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.sesi2 h2 {
+	color: black;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.paket3 {
+	width: 250px;
+	height: 600px;
+	background-color: #E3EEF4;
+	float: left;
+	margin-left: 16.5px;
+	margin-top:	50px; 
+	border-radius: 10px;
+}
+
+.nama3 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.nama3 h2 {
+	color: black;
+	line-height: 50px;
+	text-align: center;
+}
+
+.harga3 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+	margin-top: 30px;
+}
+
+.harga3 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.ket3 {
+	width: 250px;
+	height: 180px;
+	/*background-color: red;*/
+	margin-top: 40px;
+}
+
+.ket3 h2 {
+	color: black;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.masa3 {
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	/*background-color: red;*/
+}
+
+.masa3 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.sesi3 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.sesi3 h2 {
+	color: black;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.paket4 {
+	width: 250px;
+	height: 600px;
+	background-color: #E3EEF4;
+	float: right;
+	margin-right: 150px;
+	margin-top:	50px; 
+	border-radius: 10px;
+}
+
+.nama4 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.nama4 h2 {
+	color: black;
+	line-height: 50px;
+	text-align: center;
+}
+
+.harga4 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+	margin-top: 30px;
+}
+
+.harga4 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.ket4 {
+	width: 250px;
+	height: 180px;
+	/*background-color: red;*/
+	margin-top: 40px;
+}
+
+.ket4 h2 {
+	color: black;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.masa4 {
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	/*background-color: red;*/
+}
+
+.masa4 h2 {
+	color: black;
+	line-height: 50px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.sesi4 {
+	width: 250px;
+	height: 50px;
+	/*background-color: red;*/
+}
+
+.sesi4 h2 {
+	color: black;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.footer1 a{
+	text-decoration: none;
+	padding: 20px 30px;
+	margin-left: 100px;
+	box-sizing: border-box;
+	color: #821413;
+	line-height: 60px;
+	float: left;
+}
+
+.footer a:hover {
+	background-color: #E3EEF4;
+}
+
+.logoFoot {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+}

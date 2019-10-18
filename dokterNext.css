@@ -1,0 +1,799 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century gothic';
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.logo1 {
+	width: 500px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+
+.logo2 {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	/*padding-top: 10px; */
+}
+
+.body {
+	width: 100%;
+	height: 100px;
+	background-color: #E3EEF4;	
+}
+
+.body1 {
+	width: 1000px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.navbar {
+	width: 90%;
+	/*height: 100px;*/
+	/*background-color: lightblue;*/
+	box-sizing: border-box;
+	margin: 0 auto; 
+	line-height: 100px;
+	/*padding-top: 10px;*/
+	overflow: hidden;
+}
+
+.navbar a {
+	text-decoration: none;
+	/*background-color: red;*/
+	color: #821413;
+	margin-left:7px;
+	padding: 20px 45px;
+	line-height: 50px;
+	box-sizing: border-box;
+	/*border-radius: 20px;*/
+}
+
+.navbar a:hover {
+	background-color: #E3EEF4;
+	border-bottom: 3px solid #821413;
+}
+
+.kotak1 {
+	width:900px;
+	height:1400px;
+	/*background-color:red;*/
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.baris1 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+}
+
+.dokter1 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto1 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi1 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi1 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter2 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto2 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d2.jpeg);
+	background-size: cover;
+	background-position-x: -15px;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi2 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi2 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris2 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter3 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto3 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d3.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi3 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi3 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter4 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto4 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d4.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi4 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi4 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris3 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter5 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto5 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d5.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi5 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi5 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter6 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto6 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi6 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi6 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris1 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 10px;
+}
+
+.dokter1 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto1 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi1 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi1 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter2 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto2 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d2.jpeg);
+	background-size: cover;
+	background-position-x: -15px;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi2 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi2 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris2 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter3 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto3 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d3.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi3 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi3 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter4 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto4 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d4.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi4 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi4 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris3 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter5 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto5 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d5.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi5 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi5 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter6 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto6 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi6 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi6 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris3 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter5 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto5 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d5.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi5 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi5 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter6 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto6 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi6 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi6 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris1 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 10px;
+}
+
+.dokter1 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto1 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi1 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi1 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter2 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto2 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d2.jpeg);
+	background-size: cover;
+	background-position-x: -15px;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi2 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi2 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris2 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter3 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto3 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d3.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi3 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi3 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter4 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto4 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d4.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px; 
+	float: left;
+}
+.deskripsi4 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi4 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.baris3 {
+	width: 900px;
+	height: 120px;
+	/*background-color: yellow;*/
+	margin-top: 15px;
+}
+
+.dokter5 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: left;
+}
+
+.foto5 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d5.jpg);
+	background-size: cover;
+	background-position-x: -50px;
+	border-radius: 20px;
+	float: left;
+}
+.deskripsi5 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi5 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.dokter6 {
+	width: 47%;
+	height: 120px;
+	background-color: #821413;
+	border-radius: 20px;
+	float: right;
+}
+
+.foto6 {
+	width: 100px;
+	height: 100px;
+	background-image: url(dokter/d1.jpg);
+	background-size: cover;
+	border-radius: 20px; 
+	float: left;
+}
+
+.deskripsi6 {
+	width: 300px;
+	height: 120px;
+	float: right;
+}
+
+.deskripsi6 h2,h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+.footer1 a{
+	text-decoration: none;
+	padding: 20px 30px;
+	margin-left: 100px;
+	box-sizing: border-box;
+	color: #821413;
+	line-height: 60px;
+	float: left;
+}
+
+.footer a:hover {
+	background-color: #E3EEF4;
+}
+
+.logoFoot {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+}

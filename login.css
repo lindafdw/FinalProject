@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century gothic';
+}
+
+.logo {
+	width: 100%;
+	height: 667px;
+
+}
+
+.bgLogo {
+	width: 100%;
+	height: 250px;
+	/*background-color: blue;*/
+	text-align: center;
+	overflow: hidden;
+}
+
+.bgLogo h2 {
+	margin-top: 40px;
+	font-size: 30px;	
+}
+
+.bgLogo h3 {
+	/*margin-top: 20px;*/
+	font-size: 30px;
+}
+
+.logoAsli {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	margin-top: 10px; 
+}
+
+.bag65 {
+	width: 65%;
+	height: 667px;
+	/*background-color: #F6EEEE;*/
+	background-image: url(login/bgg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	float: left;
+	/*padding-top: 5px;*/
+}
+
+.bag35 {
+	width: 35%;
+	height: 667px;
+	/*background-color: #E3EEF4;*/
+	background-image: url(login/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	box-sizing: border-box;
+	float: right;
+	/*padding-top: 5px;*/
+}
+
+.gambar {
+	width: 550px;
+	height: 390px;
+	/*background-color: green;*/
+	background-image: url(login/g.png);
+	background-size: 550px 390px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 17px;
+	float: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 0 auto;
+    overflow: hidden;
+    float: left;
+    background-image:url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -110px;
+}
+
+.talk{
+    width: 500px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.garis {
+    border: 2px solid black;
+}
+
+.talk h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.talk h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.nama {
+    width: 310px;
+    margin-right: 10px;
+    float: right;
+}
+
+.email {
+    width: 310px;
+    margin-right: 10px;
+    float: right;
+}
+
+.telp {
+    width: 310px;
+    margin-right: 10px;
+    float: right;
+}
+
+.tgl {
+    width: 160px;
+    margin-left: 50px;
+    color: black;
+}
+
+.alamat {
+    width: 310px;
+    margin-right: 10px;
+    float: right;
+}
+
+.laki {
+    margin-left: 50px;
+}
+
+
+.ktp {
+    width: 310px;
+    margin-right: 10px;
+    float: right;
+}
+
+.submit {
+    background-color: pink;
+}
