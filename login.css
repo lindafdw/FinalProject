@@ -59,7 +59,7 @@
 	background-image: url(login/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: 0.3;
+	/*opacity: 0.3;*/
 	box-sizing: border-box;
 	float: right;
 	/*padding-top: 5px;*/
@@ -81,77 +81,98 @@
     box-sizing: border-box;
 }
 
-.form {
-    margin: 0 auto;
-    overflow: hidden;
-    float: left;
-    background-image:url(img/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: -110px;
+.login{
+	position: fixed;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 500px;
+	height: 722px;
 }
-
-.talk{
-    width: 500px;
-    height: 650px;
-    margin: 0 auto;
+h1{
+	position: fixed;
+	top: 0;
+	right: 100;
+	width: 500px;
+	margin-top: 40px;
+	margin-left: 40px;
+	font-weight: 300;
+	font-size: 28px;
 }
-
-.garis {
-    border: 2px solid black;
+input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 60px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
 }
-
-.talk h2 {
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
 }
-.talk h3 {
-    font-size: 18px;
-    margin-top: 30px;
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 350px;
+	height: 32px;
+	background: #1e90ff;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2px ease;
+	cursor: pointer;
 }
-
-.nama {
-    width: 310px;
-    margin-right: 10px;
-    float: right;
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+	background: #00bfff;
+	transition: 0.2s ease;
 }
-
-.email {
-    width: 310px;
-    margin-right: 10px;
-    float: right;
+.signupwith{
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
 }
-
-.telp {
-    width: 310px;
-    margin-right: 10px;
-    float: right;
+button.social{
+	margin-bottom: 20px;
+	margin-left: 80px;
+	width: 270px;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
 }
-
-.tgl {
-    width: 160px;
-    margin-left: 50px;
-    color: black;
+.facebook{
+	background: #32508e;
 }
-
-.alamat {
-    width: 310px;
-    margin-right: 10px;
-    float: right;
-}
-
-.laki {
-    margin-left: 50px;
-}
-
-
-.ktp {
-    width: 310px;
-    margin-right: 10px;
-    float: right;
-}
-
-.submit {
-    background-color: pink;
+.google{
+	background: #dd4b39;
 }
