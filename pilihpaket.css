@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century gothic';
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.logo1 {
+	width: 500px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+
+.logo2 {
+	width: 90px;
+	height: 40px;
+	background-color: #821413;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	/*padding-top: 10px; */
+}
+
+.body {
+	width: 100%;
+	height: 100px;
+	background-color: #E3EEF4;	
+}
+
+.body1 {
+	width: 1000px;
+	height: 100px;
+	/*background-color: black;*/
+	margin: 0 auto;
+}
+
+.navbar {
+	width: 90%;
+	/*height: 100px;*/
+	/*background-color: lightblue;*/
+	box-sizing: border-box;
+	margin: 0 auto; 
+	line-height: 100px;
+	/*padding-top: 10px;*/
+	overflow: hidden;
+}
+
+.navbar a {
+	text-decoration: none;
+	/*background-color: red;*/
+	color: #821413;
+	margin-left:7px;
+	padding: 20px 45px;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+.navbar a:hover {
+	background-color: #E3EEF4;
+	border-bottom: 3px solid #821413;
+}
+
+.kotak1 {
+	width: 100%;
+	height: 750px;
+	/*background-color: red;*/
+	background-image: url(paket/11.jpg);
+	background-size: cover;
+	margin-top:	20px; 
+	overflow: hidden;
+}
+
+.isi {
+	width: 60%;
+	height: 650px;
+	background-color: #E3EEF4;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.judul {
+	width: 100%;
+	height: 100px;
+	/*background-color: red;*/
+}
+
+.judul h2 {
+	color:  #1B6678;
+	text-align: center;
+	font-size: 30px;
+	line-height: 100px;
+}
+
+.pertanyaan {
+	width: 100%;
+	height: 550px;
+	/*background-color: white;*/
+	overflow: hidden;
+}
+
+.pertanyaan p {
+	margin-top: 10px;
+	margin-left: 39px;
+}
+
+input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 730px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+	border-radius: 5px;
+}
+
+.survey {
+	margin-top: 20px;
+}
+
+.pertanyaan h3 {
+	margin-top: 20px;
+	text-align: center;
+	/*margin: 0 auto;*/
+}
+
+.usia {
+	margin-top: 20px;
+}
+
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 730px;
+	height: 32px;
+	background: #1e90ff;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	margin-left: 39px;
+	/*font-family:  sans-serif;*/
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2px ease;
+	cursor: pointer;
+	margin-top: 30px;
+}
