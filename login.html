@@ -25,7 +25,7 @@
 				<br>
 				<input type="Password" name="Password" placeholder="Password" class="Password" required="Tolong Diisi">
 				<br>
-				<a href="home.html"><input type="submit" name="signup-button" value="Masuk"></a>
+				<a href="home.html"><input type="submit" name="signup-button" value="Masuk" onclick="runPopUp()"></a>
 				<p>-----   ATAU   -----</p>
 				<span class="signupwith">Masuk dengan Media Sosial</span>
 				<a href="https://m.facebook.com/login/?locale=id_ID"><button class="social facebook">Masuk dengan Facebook</button></a>
@@ -33,5 +33,10 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		function runPopUp(){
+			window.alert("Anda telah terhubung kembali. Selamat Datang");
+		};
+	</script>
 </body>
 </html>
